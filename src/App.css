@@ -1,0 +1,73 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(224, 223, 223);
+}
+.main_div{
+  background-color: rgb(224, 223, 223);
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.show_container{
+  margin: 30px;
+  
+  
+
+}
+.poster{
+height: 280px;
+width: 200px;  
+} 
+
+
+.search-container{
+ display: flex;
+ justify-content: center;
+ margin: 40px;
+
+
+}
+.search-bar{
+  width: 450px;
+  padding: 12px;
+  border-radius: 8px;
+  border-width: 1px;
+}
+.show{
+  background-color: white;
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.show-name{
+  display: flex;
+  margin-bottom: 15px;
+  background-color: white;
+  padding: 3px;
+}
+
+.follow{
+  float: left;
+  margin-right: 150px;
+background-color: white;
+
+padding: 3px;
+
+
+}
+.vote{
+  
+  background-color: white;
+  padding: 3px;
+  
+  
+  }
+
+
+
+
